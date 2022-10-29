@@ -1,0 +1,122 @@
+*{
+    font-family: 'Maven Pro', sans-serif;
+}
+
+.cover {
+    background-color: rgb(25, 25, 25);
+    height: fit-content;
+}
+
+.heading{
+    background-color: rgb(15, 15, 15);
+    box-shadow: 0px 0px 20px 4px black;
+}
+
+.about_body {
+    height: 100vh;
+    background: linear-gradient(rgb(25,25,25), rgb(35,35,35));
+}
+
+.head1{
+    text-align: center;
+    padding-top: 1.3rem;
+    color:rgb(255, 0, 255);
+    font-size: 2.2rem;
+}
+
+.head2{
+    font-size: 4rem;
+    text-align: center;
+    color: white;
+    font-weight: bold;
+    padding-bottom: 1.4rem;
+}
+
+.describe_body{
+    color: white;
+    display: flex;
+    justify-content: center;
+    padding-top: 3rem;
+}
+
+.profile_pic {
+    height: 22rem;
+    border: 1px solid rgb(255, 0, 255);
+    width: 17rem;
+    background-image: url("./12\(1\).jpg");
+    background-position: center;
+    background-size: cover;
+    box-shadow: 0px 0px 20px 4px black;
+    border-radius: 5px 5px 5px 5px;
+}
+
+.describe_para {
+    width: 45rem;
+    height: 15rem;
+    margin: 3rem;
+    text-align: justify;
+    font-size: 1.5rem;
+    padding: 1.2rem;
+}
+
+@media screen and (max-width:660px) {
+    .head1{
+        padding-top: 1.4rem;
+        padding-bottom: 4px;
+        font-size: 1.5rem;
+    }
+    
+    .head2{
+        font-size: 2rem;
+        padding-bottom: 1.4rem;
+    }
+    .describe_body{
+        flex-direction: column;
+        align-items: center;
+    }
+    
+    .profile_pic {
+        height: 20rem;
+        width: 15rem;
+    }
+
+    .describe_para {
+        width: 20rem;
+        height: 15rem;
+        margin: 3rem;
+        text-align: justify;
+        font-size: 15px;
+        padding: 1.2rem;
+    }
+}
+
+@media screen and (min-width:660px) and (max-width:930px)
+and (min-height:350px) and (max-height:430px) {
+    .head1{
+        padding-top: 1.4rem;
+        padding-bottom: 4px;
+        font-size: 1.5rem;
+    }
+    
+    .head2{
+        font-size: 2rem;
+        padding-bottom: 1.4rem;
+    }
+
+    .describe_body{
+        align-items: center;
+        margin-top: -2rem;
+    }
+    
+    .profile_pic {
+        height: 8rem;
+        width: 6rem;
+        margin-left: 3rem;
+    }
+
+    .describe_para {
+        width: 35rem;
+        height: fit-content;
+        font-size: 15px;
+    }
+}
